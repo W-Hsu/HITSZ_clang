@@ -4,9 +4,10 @@ int main() {
 	const double RATE = 0.0225;
 	double capital = 0;
 	int n = 0;
-	scanf ("%lf%d", &capital, &n);
+    printf("input capital and year:");
+	scanf("%lf%*c%d", &capital, &n);
 
 	capital = capital * pow((1 + RATE),n);
-	printf ("deposit:%lf", capital);
+	printf("deposit:%lf\n", capital);
 	return 0;
 }
