@@ -4,4 +4,4 @@
 The binary files were built on platform:
 MacOSX-clang, intel_x64.
 
-The release work is **NOT** for homework sharing.
+The released works is **NOT** for homework sharing.
