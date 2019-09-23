@@ -17,7 +17,7 @@ void update() {
 }
 
 void display() {
-    printf ("%2d:%2d:%2d\n", hr, mn, sc);
+    printf ("%'0'2d:%'0'2d:%'0'2d\n", hr, mn, sc);
 }
 
 void delay() {
