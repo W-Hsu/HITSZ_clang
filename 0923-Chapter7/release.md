@@ -1,0 +1,1 @@
+Because of the requirement of submitting homework of class Sept.23 and Sept.26 together, the release of 0923 and 0926 release are put in one file, which locates at: [0926-Chapter7/release](../0926-Chapter7/release).
