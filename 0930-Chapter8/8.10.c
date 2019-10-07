@@ -14,11 +14,14 @@ int calculate_reverse(int* mat, int rank) {
 
 int main() {
     int rank=0, i=0, j=0;
+	int cmain=0, crvs=0;
     printf("input rank > ");
     scanf("%d", &rank);
     const int _rank = rank;
     int mat[_rank*_rank];
     for (i=0 ; i<_rank*_rank ; i++) scanf("%d", &mat[i+j]);
-    printf("%d %d\n", calculate_main(mat, _rank), calculate_reverse(mat, _rank));
+	cmain = calculate_main(mat, _rank);
+	crvs = calculate_reverse(mat, _rank);
+    printf("%d + %d = %d\n", cmain, crvs, cmain+crvs);
     return 0;
 }
